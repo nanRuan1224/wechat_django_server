@@ -100,4 +100,4 @@ def click(request):
         "msg": "click success",
         "data": {}
     }
-    return JsonResponse(res)
+    return JsonResponse(res,json_dumps_params={'ensure_ascii': False})

@@ -20,10 +20,12 @@ from wxcloudrun import views
 urlpatterns = [
     # 计数器接口
     re_path(r'^^api/count(/)?$', views.counter),
+    
+    # 测试接口
+    path('test/',views.click),
 
     # 获取主页
     re_path(r'(/)?$', views.index),
     
-    # 测试接口
-    path('test/',views.click),
+    
 ]

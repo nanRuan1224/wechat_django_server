@@ -1,5 +1,12 @@
 {
-  "containers": [],
+  "containers": [
+    {
+      "name": "wechat_django_server",
+      "containerId": "99dd0ef17d8c47e7b2fda947718696061866ebee411c97ef7005c4d1395e2692",
+      "domain": "",
+      "ip": ""
+    }
+  ],
   "config": {
     "wechat_django_server": {
       "containerPort": 80,
