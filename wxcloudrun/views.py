@@ -92,12 +92,20 @@ def update_count(request):
 
 def click(request):
     """测试函数"""
-    body_unicode = request.body.decode('utf-8')
-    body = json.loads(body_unicode)
+    try:
+        if request.body:
+            body_unicode = request.body.decode('utf-8')
+            body = json.loads(body_unicode)
+        else:
+            body = {}
+    except Exception as e:
+        print("body parse error:", e)
+        body = {}
+
     print("server connect success")
     res = {
         "code": 201,
         "msg": "click success",
         "data": {}
     }
-    return JsonResponse(res,json_dumps_params={'ensure_ascii': False})
+    return JsonResponse(res, json_dumps_params={'ensure_ascii': False})
