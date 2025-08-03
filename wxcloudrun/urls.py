@@ -22,10 +22,8 @@ urlpatterns = [
     re_path(r'^^api/count(/)?$', views.counter),
     
     # 测试接口
-    path('test/',views.click),
+    path('test/', views.click),
 
     # 获取主页
-    re_path(r'(/)?$', views.index),
-    
-    
+    re_path(r'^$', views.index),
 ]
