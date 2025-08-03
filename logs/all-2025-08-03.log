@@ -1,0 +1,10 @@
+[2025-08-03 16:28:35,211] [autoreload.py:667] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2025-08-03 16:30:05,715] [autoreload.py:265] [autoreload:trigger_reload] [INFO]- C:\project\wechat_django_server\wxcloudrun\urls.py changed, reloading.
+[2025-08-03 16:30:06,917] [autoreload.py:667] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2025-08-03 16:30:29,757] [autoreload.py:265] [autoreload:trigger_reload] [INFO]- C:\project\wechat_django_server\wxcloudrun\urls.py changed, reloading.
+[2025-08-03 16:30:30,912] [autoreload.py:667] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2025-08-03 16:30:45,128] [autoreload.py:265] [autoreload:trigger_reload] [INFO]- C:\project\wechat_django_server\wxcloudrun\urls.py changed, reloading.
+[2025-08-03 16:30:46,216] [autoreload.py:667] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2025-08-03 16:30:53,954] [autoreload.py:667] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2025-08-03 16:31:17,597] [autoreload.py:265] [autoreload:trigger_reload] [INFO]- C:\project\wechat_django_server\wxcloudrun\settings.py changed, reloading.
+[2025-08-03 16:31:17,742] [autoreload.py:265] [autoreload:trigger_reload] [INFO]- C:\project\wechat_django_server\wxcloudrun\settings.py changed, reloading.

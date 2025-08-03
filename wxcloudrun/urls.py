@@ -13,17 +13,17 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.urls import path
+from django.urls import path, re_path
 
 from wxcloudrun import views
 
-urlpatterns = (
+urlpatterns = [
     # 计数器接口
-    path(r'^^api/count(/)?$', views.counter),
+    re_path(r'^^api/count(/)?$', views.counter),
 
     # 获取主页
-    path(r'(/)?$', views.index),
+    re_path(r'(/)?$', views.index),
     
     # 测试接口
-    path(r'test/',views.click),
-)
+    path('test/',views.click),
+]
